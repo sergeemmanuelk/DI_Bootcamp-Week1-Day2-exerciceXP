@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    background-color: #171A21;
+    line-height: 75px;
+    padding: 0px 100px;
+    /*z-index: 1;*/
+}
+
+nav .logo {
+    font-size: 30px;
+}
+
+nav .logo a {
+    float: left;
+    color: #fff;
+    opacity: 0.8;
+}
+
+nav .logo a:hover {
+    opacity: 1;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 15px;
+    opacity: 0.8;
+}
+
+nav ul li a:hover {
+    opacity: 1;
+}
+
+.container {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.row {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 0 10px;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 15px;
+    position: relative;
+}
+  
+.price {
+    color: #188B68;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card .arrival {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 50px;
+    width: 50px;
+    display: block;
+    background-color: #188B68;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.card .discount {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 50px;
+    width: 50px;
+    display: block;
+    background-color: #C91B18;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+  
+.card button {
+    border: 1px solid #D6D9D4;
+    border-radius: 5px;
+    outline: 0;
+    padding: 12px;
+    color: #B8BDB5;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.card button:hover {
+    border: 1px solid #188B68;
+    color: #fff;
+    background-color: #188B68;
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}
+
+/*footer*/
+
+footer {
+    background-color: #171A21;
+    color: #fff;
+}
+
+.sticky-footer {
+    position: sticky;
+    top: 100%;
+}
+
+.sticky-footer {
+    padding: 40px 0;
+}
+
+.sticky-footer .social-icon {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.sticky-footer .social-icon a {
+    font-size: 24px;
+    color: #fff;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.sticky-footer .social-icon a:hover {
+    opacity: 0.9;
+}
+
+footer ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+    text-transform: uppercase;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    opacity: 1;
+}
+
+.sticky-footer .copyright {
+    margin-top: 15px;
+    font-size: 13px;
+    text-align: center;
+    color: #aaa;
+}
+
+.sticky-footer .copyright a {
+    color: #aaa;
+}
